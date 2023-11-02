@@ -1,0 +1,22 @@
+
+      .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .item {
+        width: 200px;
+        height: 200px;
+        background-color: #ccc;
+        margin: 10px;
+      }
+      body {
+        background-color: #62d1d498;
+      }
+      #mi-imagen {
+        width: 30%; /* Tamaño de ancho */
+        height: auto; /* Altura automática para mantener la proporción */
+        border: 2px solid black; /* Borde de la imagen */
+        background-color: lightgray; /* Color de fondo de la imagen */
+      }
